@@ -1,0 +1,22 @@
+{
+    "name": "richardbathiebo/phpprojet",
+    "autoload": {
+        "psr-4": {
+            "Richardbathiebo\\Phpprojet\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Richard-Cod",
+            "email": "richard.bathiebo.7@gmail.com"
+        }
+    ],
+    "require": {
+        "doctrine/orm": "^2.10"
+    },
+    "config": {
+        "allow-plugins": {
+            "composer/package-versions-deprecated": false
+        }
+    }
+}
